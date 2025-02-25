@@ -1,0 +1,67 @@
+{
+  "name": "strapi-plugin-smart-tags",
+  "version": "1.0.1",
+  "description": "Smart Tags plugin for Strapi",
+  "keywords": [
+    "strapi",
+    "plugin",
+    "tags"
+  ],
+  "strapi": {
+    "name": "smart-tags",
+    "description": "Smart Tags plugin for Strapi",
+    "kind": "plugin",
+    "displayName": "Smart Tags"
+  },
+  "scripts": {
+    "build": "strapi-plugin build",
+    "watch": "strapi-plugin watch",
+    "watch:link": "strapi-plugin watch:link",
+    "verify": "strapi-plugin verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/department-for-transport/NaPTAN-R.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "NaPTAN Team"
+  },
+  "maintainers": [
+    {
+      "name": "NaPTAN Team"
+    }
+  ],
+  "main": "strapi-server.js",
+  "dependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@strapi/design-system": "^2.0.0-rc.16",
+    "@strapi/icons": "^2.0.0-rc.16",
+    "prop-types": "^15.8.1",
+    "react-autosuggest": "^10.1.0",
+    "react-tagsinput": "^3.20.3",
+    "react-intl": "^7.1.6"
+  },
+  "devDependencies": {
+    "@strapi/strapi": "^5.10.2",
+    "@strapi/sdk-plugin": "^5.3.1",
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "axios": "^1.7.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^5.10.2",
+    "@strapi/sdk-plugin": "^5.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=20.x.x",
+    "npm": ">=6.0.0"
+  }
+}
